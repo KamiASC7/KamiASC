@@ -1,6 +1,6 @@
 function setup(){
     createCanvas(400,600)
-    background(0)
+    background("black")
     rectMode(CENTER)
 }
 var i = 0
@@ -98,7 +98,6 @@ var alien15 = {
     shown:0 
 }
 var aliens = [alien1,alien2,alien3,alien4,alien5,alien6,alien7,alien8,alien9,alien10,alien11,alien12,alien13,alien14,alien15];
-// triangle(170,550,200,500,230,550)
 var ship = {
     x1:170,
     y1:550,
