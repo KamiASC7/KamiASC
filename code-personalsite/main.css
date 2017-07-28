@@ -1,0 +1,36 @@
+
+
+* {
+    border: 1px dotted red;
+}
+
+.jumbotron {
+    /* text-align: center; */
+    /* color: white; */
+    /* height: 500px; */
+     /* background: url("http://i.imgur.com/pqdICWJ.gif");  */
+    /* background-size: center; */
+    /* background-attachment: fixed */
+    /* padding-top: 150px; */
+}
+
+.btn-default {
+    /* margin-top: -30px; */
+    /* color: blue; */
+}
+
+.embed-responsive-item{
+    /* padding:0px 80px 80px 80px; */
+}
+
+body{
+      /* text-align: center; */
+      /* background: url("https://itube.uz/upload/video/images/big/c0/80/c0802b13be2540f13c124e4ae055d50b.jpg"); */
+      /* background-size: cover; */
+      /* background-position: center;  */
+      /* font-family: Helvetica; */
+    }
+    p{
+      /* font-size:25px; */
+      /* font-style: white; */
+      }
