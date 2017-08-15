@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>AI Global chat</title>
+
+    <!--Go to https://console.firebase.google.com-->
+    <!--Sign in and add a project "fireMessage"-->
+    <!--PASTE SNIPPET HERE-->
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDMPDcbUZRXiuHn3i8jPb-RkHmM7GWud-o",
+            authDomain: "imanischat.firebaseapp.com",
+            databaseURL: "https://imanischat.firebaseio.com",
+            projectId: "imanischat",
+            storageBucket: "",
+            messagingSenderId: "970365009581"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
+
+    <!--custom files-->
+    <script src="main.css"></script>
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+
+<body>
+    <a href="file:///C:/Users/ASC%20Guest/desktop/kami-variables/kami-demoproject/index.html"><button type="button" class="btn btn-lg">Back to main site</button></a>
+    <!--Add your name-->
+    <h1>AI Global</h1>
+
+    <!--Will be populated with messages-->
+    <div class="allMessages">
+
+    </div>
+
+    <!--For user to input messages-->
+    <div class="userContainer">
+        <form>
+            <div class="textContainer">
+                <div>
+                    <p>Your name:</p><input id="name" type="text">
+                </div>
+                <div>
+                    <p>Message:</p><input id="message" type="text">
+                </div>
+            </div>
+            <div class="GObutton">
+                <input type="reset" onclick="updateDB();" value="Submit/Update">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
